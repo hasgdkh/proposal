@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For You ❤️</title>
+<style>
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+}
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+h2 {
+    color: #e91e63;
+}
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+.yes {
+    background: #e91e63;
+    color: white;
+}
+.no {
+    background: gray;
+    color: white;
+    filter: blur(2px);
+    cursor: not-allowed;
+}
+.from {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Will you accept my request, Sanju? 💖</h2>
+
+    <button class="yes" onclick="openChocolate()">YES</button>
+    <button class="no" disabled>NO</button>
+
+    <div class="from">
+        From your beloved,<br>
+        <b>Harsh ❤️</b>
+    </div>
+</div>
+
+<script>
+function openChocolate() {
+    window.location.href = "https://i.imgur.com/4M7IWwP.jpg";
+}
+</script>
+
+</body>
+</html>
