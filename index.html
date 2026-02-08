@@ -54,7 +54,9 @@ button {
 
     <button class="yes" onclick="openChocolate()">YES</button>
     <button class="no" disabled>NO</button>
-
+<img id="choco"
+     src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=400"
+     style="display:none; width:200px; margin-top:20px;">
     <div class="from">
         From your beloved,<br>
         <b>Harsh ❤️</b>
@@ -66,6 +68,10 @@ function openChocolate() {
     window.location.href = "https://i.imgur.com/4M7IWwP.jpg";
 }
 </script>
-
+<script>
+function openChocolate() {
+  document.getElementById("choco").style.display = "block";
+}
+</script>
 </body>
 </html>
